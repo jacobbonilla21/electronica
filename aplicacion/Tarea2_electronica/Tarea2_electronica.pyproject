@@ -1,0 +1,8 @@
+{
+    "files": [
+        "widget.py",
+        "info_window.ui",
+        "main_window.ui",
+        "math_window.ui"
+    ]
+}
