@@ -51,6 +51,20 @@
      <height>29</height>
     </rect>
    </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::ContextMenuPolicy::DefaultContextMenu</enum>
+   </property>
+   <property name="editable">
+    <bool>false</bool>
+   </property>
+   <property name="currentText">
+    <string/>
+   </property>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
    <item>
     <property name="text">
      <string>Leer documentación teórica</string>

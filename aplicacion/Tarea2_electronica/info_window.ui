@@ -56,10 +56,10 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>550</x>
+      <x>416</x>
       <y>90</y>
-      <width>67</width>
-      <height>21</height>
+      <width>331</width>
+      <height>461</height>
      </rect>
     </property>
     <property name="text">
@@ -69,14 +69,27 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>270</x>
+      <x>280</x>
       <y>20</y>
-      <width>271</width>
+      <width>211</width>
       <height>21</height>
      </rect>
     </property>
     <property name="text">
      <string>Conceptos SemiConductores</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BotonAtras">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>97</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Atrás</string>
     </property>
    </widget>
   </widget>
