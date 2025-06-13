@@ -22,8 +22,14 @@
      <height>21</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <fontweight>ExtraBold</fontweight>
+    </font>
+   </property>
    <property name="text">
-    <string>Bienvenido a nuestro programa</string>
+    <string>BIENVENIDO</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignmentFlag::AlignCenter</set>
@@ -32,24 +38,34 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>190</x>
-     <y>80</y>
+     <x>50</x>
+     <y>120</y>
      <width>491</width>
      <height>21</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
    <property name="text">
-    <string>Porfavor seleccione una de las opciones y presione ok para continuar</string>
+    <string>Para continuar seleccione una de las opciones y presione Ok:</string>
    </property>
   </widget>
   <widget class="QComboBox" name="Seleccion_menu">
    <property name="geometry">
     <rect>
-     <x>300</x>
-     <y>130</y>
+     <x>290</x>
+     <y>170</y>
      <width>281</width>
      <height>29</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
    </property>
    <property name="contextMenuPolicy">
     <enum>Qt::ContextMenuPolicy::DefaultContextMenu</enum>
@@ -58,11 +74,11 @@
     <bool>false</bool>
    </property>
    <property name="currentText">
-    <string/>
+    <string>Opciones...</string>
    </property>
    <item>
     <property name="text">
-     <string/>
+     <string>Opciones...</string>
     </property>
    </item>
    <item>
@@ -79,14 +95,58 @@
   <widget class="QPushButton" name="OkBoton">
    <property name="geometry">
     <rect>
-     <x>390</x>
-     <y>210</y>
+     <x>330</x>
+     <y>240</y>
      <width>91</width>
      <height>29</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
    <property name="text">
     <string>Ok</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>60</y>
+     <width>451</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Teoría Básica de Semiconductores y Diodo Semiconductor</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ExitBoton">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>240</y>
+     <width>91</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Salir</string>
    </property>
   </widget>
  </widget>

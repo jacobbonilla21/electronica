@@ -46,7 +46,7 @@ class InfoWindow(QMainWindow):
         self.main_window.show()
         self.hide()
 
-    #funcion de condicion para visualizacion de la teoria
+#funcion de condicion para visualizacion de la teoria
     def show_info(self):
         if self.ui.radioButton_semiconductor.isChecked():
             self.ui.label.setText("Información de la opción 1")
@@ -81,6 +81,7 @@ class MainWindow(QMainWindow):
         self.setCentralWidget(self.ui)
 
         self.ui.OkBoton.clicked.connect(self.open_window)
+        self.ui.ExitBoton.clicked.connect(lambda: QApplication.quit())
 
 #Funcion para seleccionar que ventana queremos acceder
     def open_window(self):
