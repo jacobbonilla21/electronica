@@ -9,7 +9,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>467</width>
+    <width>481</width>
     <height>300</height>
    </rect>
   </property>
@@ -309,12 +309,12 @@ background-color: rgb(255, 255, 255);</string>
        </item>
        <item>
         <property name="text">
-         <string>Leer documentación teórica</string>
+         <string>Documentación Teórica</string>
         </property>
        </item>
        <item>
         <property name="text">
-         <string>Realizar Iteraciones</string>
+         <string>Método Iterativo</string>
         </property>
        </item>
       </widget>
