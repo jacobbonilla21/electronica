@@ -17,14 +17,17 @@
    <widget class="QPushButton" name="BotonAtras">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>20</x>
       <y>10</y>
-      <width>97</width>
+      <width>91</width>
       <height>29</height>
      </rect>
     </property>
     <property name="text">
-     <string>Atrás</string>
+     <string>  Regresar</string>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::EditUndo"/>
     </property>
    </widget>
    <widget class="QLabel" name="label">
@@ -32,12 +35,40 @@
      <rect>
       <x>310</x>
       <y>20</y>
-      <width>161</width>
+      <width>181</width>
       <height>21</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="text">
-     <string>Ventana de iteraciones</string>
+     <string>Método Iterativo</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="BotonInfo">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>20</y>
+      <width>24</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::HelpAbout"/>
+    </property>
+    <property name="autoRaise">
+     <bool>true</bool>
     </property>
    </widget>
   </widget>
@@ -47,9 +78,15 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>26</height>
+     <height>22</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuElectr_nica_B_sica">
+    <property name="title">
+     <string>Electrónica Básica</string>
+    </property>
+   </widget>
+   <addaction name="menuElectr_nica_B_sica"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>

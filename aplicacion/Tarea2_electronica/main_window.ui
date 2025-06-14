@@ -16,9 +16,9 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>320</x>
+     <x>290</x>
      <y>30</y>
-     <width>231</width>
+     <width>221</width>
      <height>21</height>
     </rect>
    </property>
@@ -56,8 +56,8 @@
   <widget class="QComboBox" name="Seleccion_menu">
    <property name="geometry">
     <rect>
-     <x>290</x>
-     <y>170</y>
+     <x>260</x>
+     <y>180</y>
      <width>281</width>
      <height>29</height>
     </rect>
@@ -83,19 +83,19 @@
    </item>
    <item>
     <property name="text">
-     <string>Leer documentación teórica</string>
+     <string>Documentación Teórica</string>
     </property>
    </item>
    <item>
     <property name="text">
-     <string>Realizar Iteraciones</string>
+     <string>Método Iterativo</string>
     </property>
    </item>
   </widget>
   <widget class="QPushButton" name="OkBoton">
    <property name="geometry">
     <rect>
-     <x>330</x>
+     <x>300</x>
      <y>240</y>
      <width>91</width>
      <height>29</height>
@@ -113,15 +113,16 @@
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>210</x>
-     <y>60</y>
-     <width>451</width>
+     <x>160</x>
+     <y>70</y>
+     <width>481</width>
      <height>21</height>
     </rect>
    </property>
    <property name="font">
     <font>
      <pointsize>12</pointsize>
+     <bold>true</bold>
     </font>
    </property>
    <property name="text">
@@ -134,7 +135,7 @@
   <widget class="QPushButton" name="ExitBoton">
    <property name="geometry">
     <rect>
-     <x>440</x>
+     <x>410</x>
      <y>240</y>
      <width>91</width>
      <height>29</height>

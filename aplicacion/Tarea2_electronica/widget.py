@@ -11,6 +11,7 @@
 from PySide6.QtWidgets import QApplication, QMainWindow
 from PySide6.QtUiTools import QUiLoader
 from PySide6.QtCore import QFile, QIODevice
+from PySide6.QtWidgets import QStyle
 import sys
 
 loader = QUiLoader()
@@ -38,6 +39,10 @@ class InfoWindow(QMainWindow):
         self.ui.radioButton_semiconductor.clicked.connect(self.show_info)
         self.ui.radioButton_intrinseco_extrinseco.clicked.connect(self.show_info)
         self.ui.radioButton_tipon_tipop.clicked.connect(self.show_info)
+        #boton atras
+        self.ui.BotonAtras.setIcon(
+            self.style().standardIcon(QStyle.SP_ArrowBack)  # Flecha de retroceso
+        )
         self.ui.BotonAtras.clicked.connect(self.open_window)
 
 #funcion del boton para volver al menu principal
@@ -64,7 +69,16 @@ class MathWindow(QMainWindow):
         self.setCentralWidget(self.ui)
 
 #Elementos de la ventana de iteraciones
+        #boton atras
+        self.ui.BotonAtras.setIcon(
+            self.style().standardIcon(QStyle.SP_ArrowBack)  # Flecha de retroceso
+        )
         self.ui.BotonAtras.clicked.connect(self.open_window)
+        #boton informativo
+        self.ui.BotonInfo.setIcon(
+                    self.style().standardIcon(QStyle.SP_MessageBoxInformation) # Ícono ⓘ estándar
+                )
+        self.ui.BotonInfo.setToolTip("Emplea el ensayo y error para establecer la respuesta del problema.")
 
 #funcion del boton para volver al menu principal
     def open_window(self):
