@@ -146,7 +146,8 @@ background-color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_3">
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>11</pointsize>
+         <bold>true</bold>
         </font>
        </property>
        <property name="styleSheet">
@@ -154,7 +155,7 @@ background-color: rgb(255, 255, 255);</string>
 background-color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
-        <string>A Teoría Básica de Semiconductores y Diodo Semiconductor</string>
+        <string>Teoría Básica de Semiconductores y Diodo Semiconductor</string>
        </property>
        <property name="scaledContents">
         <bool>false</bool>
@@ -231,7 +232,7 @@ background-color: rgb(255, 255, 255);</string>
 background-color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
-        <string>Para continuar seleccione una de las opciones y presione Ok:</string>
+        <string>Para continuar seleccione una de las opciones y presione Aceptar:</string>
        </property>
        <property name="scaledContents">
         <bool>false</bool>
@@ -360,7 +361,7 @@ background-color: rgb(255, 255, 255);</string>
         </font>
        </property>
        <property name="text">
-        <string>Ok</string>
+        <string>Aceptar</string>
        </property>
        <property name="checkable">
         <bool>false</bool>
