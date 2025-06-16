@@ -56,11 +56,35 @@ class InfoWindow(QMainWindow):
     # funcion de condicion para visualizacion de la teoria
     def show_info(self):
         if self.ui.radioButton_semiconductor.isChecked():
-            self.ui.label.setText("Información de la opción 1")
+            self.ui.label_info.setText("<h2>🔌 Conductor, Aislante y Semiconductor</h2>"
+            "<ul>"
+            "<li><b>Conductor:</b> Permite el flujo de corriente fácilmente. Ej: cobre, oro.</li>"
+            "<li><b>Aislante:</b> No permite el paso de corriente. Ej: vidrio, plástico.</li>"
+            "<li><b>Semiconductor:</b> Puede comportarse como conductor o aislante según condiciones.</li>"
+            "</ul>"
+            "<br>"
+            "<img src='diferencia_conductor_semicondutor_aislante.jpg' style='max-width:100%; height:auto;'")
+
         elif self.ui.radioButton_intrinseco_extrinseco.isChecked():
-            self.ui.label.setText("Información de la opción 2")
+            self.ui.label_info.setText("<h2>🔬 Intrínseco vs Extrínseco</h2>"
+            "<ul>"
+            "<li><b>Intrínseco:</b> Puro, solo átomos iguales (como silicio puro).</li>"
+            "<li><b>Extrínseco:</b> Dopado con impurezas para mejorar la conductividad.</li>"
+            "</ul>"
+            "<br>"
+            "<img src='semiconductores_extrinsecos.jpg' style='max-width:100%; height:auto;'"
+            "<br>"
+            "<img src='semiconductores_intrinseco.jpg' style='max-width:100%; margin-top:1; height:auto;'"
+            )
+
         elif self.ui.radioButton_tipon_tipop.isChecked():
-            self.ui.label.setText("Información de la opción 3")
+            self.ui.label_info.setText("<h2>🧪 Tipo n vs Tipo p</h2>"
+            "<ul>"
+            "<li><b>Tipo n:</b> Dopado con átomos con más electrones (como fósforo).</li>"
+            "<li><b>Tipo p:</b> Dopado con átomos con menos electrones (como boro).</li>"
+            "</ul>"
+            "<br>"
+            "<img src='materiales_tipon_tipop.jpg' style='max-width:100%; height:auto;'")
 
 
 # Ventana para crear iteraciones
